@@ -1,0 +1,5 @@
+# Put the servers that you want New Relic agent installed on
+[nri-agents]
+10.11.1.20
+10.11.1.21
+10.11.1.22
