@@ -1,4 +1,4 @@
-resource "newrelic_synthetics_alert_condition" "web_lsn_failure" {
+resource "newrelic_synthetics_alert_condition" "main" {
   policy_id = newrelic_alert_policy.alert.id
 
   name        = "TF Failure www.lisenet.com"
