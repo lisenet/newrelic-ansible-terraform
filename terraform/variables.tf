@@ -23,3 +23,9 @@ variable "newrelic_opsgenie_integration_endpoint_url" {
   description = "Endpoint URL for New Relic to post to Opsgenie"
   type = string
 }
+
+variable "website_fqdn_to_monitor" {
+  description = "FQDN of the website to monitor with Synthetics"
+  type = string
+  default = "www.lisenet.com"
+}
