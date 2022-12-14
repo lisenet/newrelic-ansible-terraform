@@ -19,7 +19,7 @@ variable "newrelic_slack_channel_id" {
 }
 
 # See https://github.com/lisenet/opsgenie-terraform
-variable "opsgenie_newrelic_integration_endpoint_url" {
+variable "newrelic_opsgenie_integration_endpoint_url" {
   description = "Endpoint URL for New Relic to post to Opsgenie"
   type = string
 }
