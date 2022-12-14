@@ -43,6 +43,7 @@ export TF_VAR_newrelic_account_id=<value>
 export TF_VAR_newrelic_personal_api_key=<value>
 export TF_VAR_newrelic_alert_email=<value>
 export TF_VAR_newrelic_slack_channel_id=<value>
+export TF_VAR_newrelic_opsgenie_integration_endpoint_url=<value>
 ```
 
 Deploy:
