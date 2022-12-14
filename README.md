@@ -41,6 +41,6 @@ https://www.lisenet.com/2020/terraform-with-aws-s3-and-dynamodb-for-remote-state
 See required IAM account permissions [docs/terraform-aws-iam-permissions.json](./docs/terraform-aws-iam-permissions.json).
 
 ## Usage
-To deploy infrastructure agents, see [./ansible/README.md](./ansible/README.md).
+To deploy infrastructure agents, see [ansible/README.md](./ansible/README.md).
 
-To deploy Terraform config, see [./terraform/README.md](./terraform/README.md).
+To deploy Terraform config, see [terraform/README.md](./terraform/README.md).
