@@ -32,6 +32,14 @@ sudo apt install -y terraform=1.3.4
 sudo apt-mark hold terraform
 ```
 
+### Configure AWS S3 and DynamoDB for Remote State Files
+
+See configuration instructions here:
+
+https://www.lisenet.com/2020/terraform-with-aws-s3-and-dynamodb-for-remote-state-files/
+
+See required IAM account permissions [docs/terraform-aws-iam-permissions.json](./docs/terraform-aws-iam-permissions.json).
+
 ## Usage
 To deploy infrastructure agents, see [./ansible/README.md](./ansible/README.md).
 
