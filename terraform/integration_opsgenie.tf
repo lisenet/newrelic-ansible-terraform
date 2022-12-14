@@ -4,7 +4,7 @@ resource "newrelic_notification_destination" "opsgenie" {
 
   property {
     key   = "url"
-    value = var.opsgenie_newrelic_integration_endpoint_url
+    value = var.newrelic_opsgenie_integration_endpoint_url
   }
 
   lifecycle {
