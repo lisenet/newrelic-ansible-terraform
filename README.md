@@ -17,20 +17,19 @@ Terraform is used to configure New Relic's alert policies and conditions.
 
 ### Install Ansible
 
-Depending on your system:
 ```
-sudo apt install ansible
-sudo yum install ansible
-ansible --version
+sudo apt install -y python3 python3-pip
+python3 -m pip install --user ansible==4.10
 ```
 
 ### Install Terraform
+
 ```
-wget https://releases.hashicorp.com/terraform/0.13.5/terraform_0.13.5_linux_amd64.zip -O tf.zip
-unzip tf.zip
-sudo mv terraform /usr/local/bin/
-sudo chown root: /usr/local/bin/terraform
-terraform --version
+sudo apt install -y curl
+curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+sudo apt install -y terraform=1.3.4
+sudo apt-mark hold terraform
 ```
 
 ## Usage
