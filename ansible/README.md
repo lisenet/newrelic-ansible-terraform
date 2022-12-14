@@ -7,8 +7,9 @@ The licence key should be stored in the file `group_vars/nri-agents`. You can us
 Edit the file [`inventory`](./inventory) and add hosts that you want the New Relic's infrastructure agent installed on.
 
 Deploy:
+
 ```
-$ ansible-playbook configure-newrelic.yml
+ansible-playbook configure-newrelic.yml
 ```
 
 ### New Relic Infrastructure Agent Configuration File Example
